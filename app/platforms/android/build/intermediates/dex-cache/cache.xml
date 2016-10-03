@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/guilherme/processo-seletivo-senior/tempo-certo/app/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="0bddc6f9593e001d075fa3efe4b22cc73eaf16cc">
+        <dex dex="/home/guilherme/processo-seletivo-senior/tempo-certo/app/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_8d4c2acec24313de44b2b485695b534940bead84.jar" />
+    </item>
+
+</items>
