@@ -1,0 +1,37 @@
+<ion-view view-title=" ">
+  <ion-content>
+  <div class="container">
+  	<div class="row row-top">
+    	 <div class="col col-33 col-offset-33" style="padding-bottom:20%;">
+    	 	<h4 class="centered-text">{{cidadeSelecionada}}</h4>
+    	 </div>
+    	</div>
+    </div>
+    <div class="row">
+        <div class="col col-100">
+            <h4 class="centered-text">{{descricaoDiaAtual}}, {{descricaoMesAtual}}, {{dataAtual | date:'dd'}}.</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-100">
+            <h1 class="centered-text">{{temperaturaAtual}}º</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-100" style="padding-bottom:30%;">
+            <h4 class="centered-text">{{descricaoClimaAtual}}</h4>
+        </div>
+    </div>
+    <div class="row">
+        Próximas previsões:
+    </div>
+    <div class="row row-bottom">
+    	<div ng-repeat="previsao in previsoes" class="centered-text col col-33">
+    		<h3>{{previsao.temp.max}}º</h3>
+            {{previsao.temp.min}}º
+    	</div>
+    </div>
+  </div>
+    
+  </ion-content>
+</ion-view>

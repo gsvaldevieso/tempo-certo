@@ -1,0 +1,18 @@
+<ion-view view-title="Locais">
+  <ion-content>
+    <div class="row">
+  		<div class="col col-100">
+  			<ion-list>
+		  			<ion-checkbox ng-repeat="cidade in cidadesBusca">{{cidade.name}}</ion-checkbox>
+			</ion-list>
+  		</div>
+	</div>
+	<div class="row">
+		<div class="col col-100">
+  			 <button class="button button-full button-positive">
+  				Adicionar novo local
+			</button>
+  		</div>
+	</div>
+  </ion-content>
+</ion-view>
